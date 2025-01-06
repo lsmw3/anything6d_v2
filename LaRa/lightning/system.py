@@ -204,10 +204,10 @@ class system(L.LightningModule):
         for i in range(batch):
             vis_pred_pcs = []  # Store prediction paths for later logging
             for j in range(num_views):
-                pred_path = os.path.join(f'/home/q672126/project/anything6d/pc_figs/pred_pc_{j}.png')
+                pred_path = os.path.join(f'/anything6d_v2/LaRa/pc_figs/pred_pc_{j}.png')
 
                 if j == 0:  # Only save GT once per batch
-                    gt_path = os.path.join(f'/home/q672126/project/anything6d/pc_figs/gt.png')
+                    gt_path = os.path.join(f'/anything6d_v2/LaRa/pc_figs/gt.png')
                     visualize_pc(gt_pc[i * num_views + j], gt_path)  # Save the ground truth PC image
 
                 visualize_pc(pred_pc[i * num_views + j], pred_path)  # Save the predicted PC image
