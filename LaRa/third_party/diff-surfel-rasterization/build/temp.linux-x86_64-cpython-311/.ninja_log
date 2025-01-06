@@ -1,0 +1,6 @@
+# ninja log v5
+0	2268	1727360575954590040	/home/jiaqi/Documents/anything6d/LaRa/third_party/diff-surfel-rasterization/build/temp.linux-x86_64-cpython-311/cuda_rasterizer/backward.o	c00f967b0adfac81
+0	2418	1727360576104602637	/home/jiaqi/Documents/anything6d/LaRa/third_party/diff-surfel-rasterization/build/temp.linux-x86_64-cpython-311/cuda_rasterizer/forward.o	3ac9856875a485b8
+0	5852	1727360579537890125	/home/jiaqi/Documents/anything6d/LaRa/third_party/diff-surfel-rasterization/build/temp.linux-x86_64-cpython-311/cuda_rasterizer/rasterizer_impl.o	e87a100dd34179cb
+1	13691	1727360587374540041	/home/jiaqi/Documents/anything6d/LaRa/third_party/diff-surfel-rasterization/build/temp.linux-x86_64-cpython-311/ext.o	15c465f71deb225d
+1	39609	1727360613292628419	/home/jiaqi/Documents/anything6d/LaRa/third_party/diff-surfel-rasterization/build/temp.linux-x86_64-cpython-311/rasterize_points.o	a79930f9b0ea1a49
